@@ -1,0 +1,15 @@
+import threading 
+import time
+
+class MyThread (threading.Thread):
+    def run (self):
+        print ("From thread", self.name)
+        time.sleep(5)
+   
+th1 = MyThread()
+th2 = MyThread()
+th1.start()
+th2.start()
+print ("From main")
+th1.join()
+th2.join()

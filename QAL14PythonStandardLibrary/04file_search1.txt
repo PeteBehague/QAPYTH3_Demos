@@ -1,0 +1,14 @@
+egrep is an acronym for "Extended Global Regular Expressions Print".
+It is a program which scans a specified file line by line, returning lines that contain a pattern matching a given regular expression.
+The standard egrep command looks like:
+
+egrep <flags> '<regular expression>' <filename>
+
+Some common flags are:
+-c for counting the number of successful matches and not printing the actual matches,
+-i to make the search case insensitive,
+-n to print the line number before each match printout,
+-v to take the complement of the regular expression (i.e. return the lines which don't match),
+-l to print the filenames of files with lines which match the expression.
+
+Regular expressions come in their own egrep variant (this is very similar to the regular expressions found in emacs, perl, etc.)
