@@ -1,0 +1,2 @@
+String made up of single bytes
+Native string as a line

@@ -1,0 +1,8 @@
+France,Europe
+Germany,Europe
+Canada,North America
+China, Asia
+Thailand, Asia
+USA, North America
+Brazil, South America
+Great Britain, Europe
